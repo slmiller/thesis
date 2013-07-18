@@ -2,3 +2,41 @@ body {
     font-family: 'Droid Sans', sans-serif;
 }
 
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.vcontainer {
+    height: 100%;
+}
+
+#page-content {
+    position: relative;
+    background-color: #d0d0d0;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-width: 2px;
+    border-color: #909090;
+}
+
+#header-name-content {
+    height: 96px;
+}
+
+#header-image-content {
+    height: 256px;
+}
+
+#footer-content {
+    height: 128px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #909090;
+}
