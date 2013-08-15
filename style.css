@@ -4,6 +4,8 @@ body {
 
 h1 {
     font-size: 24pt;
+    color: rgb(50,50,50);
+    font-family: 'Droid Sans', sans-serif;
 }
 
 .red {
@@ -18,22 +20,31 @@ h1 {
     height: 100%;
 }
 
+#pager-container {
+    background-image: url("images/white-noise.png");  
+}
+
 #page-content {
-    background-color: rgb(220,220,220);
+    background-image: url("images/grey-noise.png");
     border-right-style: solid;
     border-left-style: solid;
     border-width: 2px;
     border-color: rgb(200,200,200);
 }
 
+#color-bar-top {
+    min-height: 8px;
+    background-color:#4daefe;
+}
+
 #header-name-content {
-    height: 96px;
+    height: 88px;
 }
 
 #sarah-miller {
-    height: 96px;
-    padding-top: 40px;
-    color: black;
+    height: 88px;
+    padding-top: 31px;
+    color: rgb(20,20,20);
     text-transform: uppercase;
     font-size: 32pt;
     font-weight: 900;
@@ -49,8 +60,8 @@ h1 {
 }
 
 #header-option {
-    height: 96px;
-    padding-top: 76px;
+    height: 88px;
+    padding-top: 68px;
     color: rgb(140,140,140);
     text-align: right;
     letter-spacing: 6pt;
@@ -58,9 +69,21 @@ h1 {
 
 #header-image-content {
     height: 200px;
-    background-image: url("images/image.jpg");
+    background-image: url("images/glacier.jpg");
     background-size: cover;
     background-position: 0 -120px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: rgb(200,200,200);
+}
+
+#main-container {
+
+}
+
+#navbar {
+    margin: 2px 0 0 2px;
 }
 
 #navbar > ul > li {
@@ -72,15 +95,29 @@ h1 {
     list-style-type: none;
     font-size: 14pt;
     font-weight: 900;
-    margin: 10px 10px 10px 10px;
-    background-color: rgb(120,120,120);
+    margin: 12px 12px 12px 12px;
+    background-color: rgb(50,50,50);
     letter-spacing: -1.5pt;
 }
 
+#navbar a {
+    color: white;
+}
+
+#navbar a:hover{
+    color: #4daefe;
+    text-decoration: none;
+}
+
+#navbar a.active-page {
+    color: #4daefe;
+    text-decoration: none;
+}
+
 #page-text {
-    background-color: rgb(210,210,210);
-    margin: 10px 10px 10px 10px;
+    background-color: rgb(234,234,240);
     padding: 10px 20px 10px 10px;
+    margin: 14px 10px 14px 6px;
 }
 
 #page-text ul {
@@ -93,6 +130,18 @@ h1 {
     font-family: arvo;
 }
 
+#page-text a {
+    color: #4daefe;
+}
+
+#page-text a:hover {
+    color: #4d82fe;
+}
+
+#page-text a:visited {
+    color: #4d82fe;
+}
+
 #footer-content {
     height: 128px;
     text-align: center;
@@ -101,11 +150,31 @@ h1 {
     font-size: 10px;
 }
 
-#footer-content :first-child {
+#footer-links {
+    font-size: 14px;
+}
+
+#footer-links a {
+    color: #4daefe;
     font-weight: bold;
     font-size: 14px;
 }
 
+#footer-links a:hover {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#footer-links a:visited {
+    color: #4d82fe;
+}
+
 #footer {
     background-color: rgb(20,20,20);
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: rgb(200,200,200);
 }
+
+
