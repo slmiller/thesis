@@ -1,0 +1,32 @@
+{
+    "home": {
+        "path_to_layout": "./layouts/home/index.html"
+    },
+    "bio": {
+        "path_to_layout": "./layouts/bio/index.html"
+    },
+    "bldgstat": {
+        "path_to_layout": "./layouts/bldgstat/index.html"
+    },
+    "abstract": {
+        "path_to_layout": "./layouts/abstract/index.html"
+    },
+    "assignments": {
+        "path_to_layout": "./layouts/assignments/index.html"
+    },
+    "research": {
+        "path_to_layout": "./layouts/research/index.html"
+    },
+    "proposal": {
+        "path_to_layout": "./layouts/proposal/index.html"
+    },
+    "presentation": {
+        "path_to_layout": "./layouts/presentation/index.html"
+    },
+    "finalreport": {
+        "path_to_layout": "./layouts/finalreport/index.html"
+    },
+    "reflection": {
+        "path_to_layout": "./layouts/reflection/index.html"
+    }
+}
