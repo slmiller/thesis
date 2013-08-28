@@ -191,7 +191,10 @@ h1 {
 }
 
 #navbar {
-    margin: 2px 0 0 2px;    
+    /*
+    @TODO navbar margin was breaking responsive layout
+    margin: 2px 0 0 2px;
+    */    
 }
 
 #navbar > ul > li {
