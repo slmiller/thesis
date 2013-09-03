@@ -1,0 +1,9 @@
+University of Maryland
+
+red: rgb(238,58,67) #ee3a43
+yellow: rgb(255,213,30) #ffd51e
+grey: rgb(35,31,32) #231f20
+
+My website:
+
+blue: #4daefe
