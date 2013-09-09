@@ -138,31 +138,19 @@ h3 {
     text-align: center;
 }
 
-#home-header-content {
+#home-header-image-content {
     height: 200px;
+    background-image: url("images/UMD_logo.png");
     background-color: rgb(35,31,32);
+    background-position: 15px center;
+    background-size: auto 90%;
+    background-repeat: no-repeat;
     border-top-style: solid;
     border-bottom-style: solid;
     border-width: 1px;
     border-color: rgb(170,170,170);
+    padding-top: 32px;
     padding-left: 5px;
-}
-
-#home-header-UMD-logo {
-    background-image: url("images/UMD_logo.png");
-    background-position: 15px center;
-    background-size: auto 90%;
-    background-repeat: no-repeat;
-    height: 200px;
-}
-
-#home-header-building-image {
-    height: 200px;
-    background-image: url("images/PFH_header.png");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    padding-bottom: 10px;
-    background-position: right -2px;
 }
 
 #bio-header-image-content {
@@ -176,7 +164,7 @@ h3 {
 
 #header-home-ul {
     list-style-type: none;
-    margin: 32px 0 0 210px;
+    margin: 0 0 0 210px;
 }
 
 #header-home-li-1 {
@@ -218,7 +206,7 @@ h3 {
 }
 
 #header-home-li-5 {
-    font-size: 12pt;
+    font-size: 14pt;
     color: rgb(255,213,30);
     font-family: 'Arvo', sans-serif;
     letter-spacing: 5pt;
