@@ -23,16 +23,31 @@ h3 {
     padding-left: 42px;
 }
 
+#header-3 {
+    font-size: 12pt;
+    color: rgb(100,100,100);
+    font-family: 'Droid Sans', sans-serif;
+    line-height: 14pt;  
+    font-weight: bold;
+}
+
 #p1 {
     font-size: 11pt;
     font-family: 'arvo', serif;
-    margin-bottom: 0;
+    margin-bottom: 3px;
 }
 
 #p2 {
     font-size: 11pt;
     font-family: 'arvo', serif;
-    margin-bottom: 0;
+    margin-bottom: 3px;
+    padding-left: 32px;
+}
+
+#p3 {
+    font-size: 11pt;
+    font-family: 'arvo', serif;
+    margin-bottom: 3px;
     padding-left: 32px;
 }
 
@@ -337,6 +352,31 @@ h3 {
     height: 100px;
     background-image: url("images/psu_grey.png");
     background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#bldgstat-image-facade {
+	height: 150px;
+    background-image: url("images/bldg-facade.png");
+    background-size: auto 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+	margin: 10px 0 10px 0;
+}
+
+#bldgstat-image-walls {
+	height: 200px;
+    background-image: url("images/wall-sections.png");
+    background-size: auto 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#bldgstat-image-LEED {
+	height: 150px;
+    background-image: url("images/LEED-gold.png");
+    background-size: auto 150px;
     background-repeat: no-repeat;
     background-position: center center;
 }
