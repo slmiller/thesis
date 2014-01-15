@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-ejs-static": "~0.3.5"
+  }
+}
