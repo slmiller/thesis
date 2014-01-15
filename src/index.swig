@@ -1,3 +1,4 @@
+{% extends 'layout.swig' %}
 {% block banner %}
 <div id="header-image" class="row-fluid">
     <div id="home-header-content" class="span12">
@@ -45,3 +46,5 @@
     </li> 
 </ul>
 {% endblock %}
+
+{% block edited %}14 November 2013{% endblock %}
