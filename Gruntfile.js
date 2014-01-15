@@ -1,25 +1,36 @@
-module.exports = function(grunt) {
+'use strict';
 
-    grunt.loadNpmTasks('grunt-ejs-static');
-
+module.exports = function (grunt) {
     grunt.initConfig({
-        ejs_static: {
-            thesis: {
-                options: {
-                    dest: '../',
-                    path_to_data: './data.json',
-                    path_to_layouts: './layouts/',
-                    index_page: 'home',
-                    parent_dirs: false,
-                    underscores_to_dashes: true,
-                    file_extension: '.html'
-                }
-            }
+      swig: {
+        build: {
+          dest: './',
+          src: ['**/*.swig'],
+          generateSitemap: false,
+          generateRobotstxt: false,
+          siteUrl: 'http://www.engr.psu.edu/ae/thesis/portfolios/2014/slm5413'
+        }
+      },
+      connect: {
+        server: {
+          options: {
+            port: 9091,
+          }
+        }
+      },
+      watch: {
+        options: {
+          livereload: true
         },
+        files: ['**/*.swig', '**/*.css'],
+        tasks: ['swig']
+      }
     });
 
-    // build the site for resume during development
-    grunt.registerTask('thesis', [
-                       'ejs_static:thesis'
-    ]);
+    grunt.loadNpmTasks('grunt-swig');
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+
+    // Default task
+    grunt.registerTask('default', ['connect', 'watch']);
 };
