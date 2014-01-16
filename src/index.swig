@@ -47,7 +47,7 @@
           <tr><th class="med-cell">2014</th></tr>
         </table>
       </td>
-      <td class="progress-name"><a href="http://www.personal.psu.edu/slm5413/thesis/proposal-2.pdf" target="_blank">proposal</a>, version 2 posted on CPEP [10 MB download]</td>
+      <td class="progress-name"><a href="http://www.personal.psu.edu/slm5413/thesis/proposal-2.pdf" target="_blank">proposal</a>, version 2 posted on CPEP [8.2 MB download]</td>
     </tr>
     <tr class="add-border">
       <td class="progress-date narrow-cell">13</td>
