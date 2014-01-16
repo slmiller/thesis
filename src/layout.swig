@@ -1,6 +1,6 @@
 <html>
   <head>
-    
+    {% block head %}
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <script src="thesis.js"></script>
@@ -11,8 +11,8 @@
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"/>
     <link href="style.css" rel="stylesheet"/>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    
-    <title>Sarah Miller's Thesis</title>
+    {% endblock %}
+    <title>{% block title %}Sarah Miller's Thesis{% endblock %}</title>
   </head>
 
   <body>
@@ -43,14 +43,7 @@
             </div>
           </div>
         </div>
-        
-<div id="header-image" class="row-fluid">
-    <div id="header-image-content-single" class="span12">
-        <p><span id="header-image-text-title">Thesis Research</span></p>
-        <p><span id="header-image-text-sub">under construction</span></p>
-    </div>
-</div>
-
+        {% block banner %}{% endblock %}
 
         <div id="main-container" class="row-fluid">
           <div id="main-container-content" class="span12">
@@ -71,14 +64,7 @@
                 </ul>
               </div>
               <div id="page-text" class="span9">
-                
-<ul>
-    <li>
-        <h1>Thesis Research</h1>
-        <p>This page's content has not yet been created. Please check back later. In the mean time, you can see a record of Sarah's recent progress on the <a href="index.html">home</a> page.</p>
-    </li>
-</ul>
-
+                {% block content %}{% endblock %}
               </div>
             </div>
           </div>
@@ -87,7 +73,7 @@
         <div id="footer" class="row-fluid">
           <div id="footer-content" class="span12">
             <p id="footer-links"><a href="index.html">Home</a> | <a href="http://www.psu.edu" target="_blank">Penn State</a> | <a href="http://www.engr.psu.edu/ae/" target="_blank">AE</a> | <a href="http://www.engr.psu.edu/ae/aecomputing/" target="_blank">AE Computer Labs</a> | <a href="http://www.slmiller.net" target="_blank">Contact</a></p>
-            <p>This page was last updated on 30 September 2013, by Sarah Miller and is hosted by The Pennsylvania State University AE Department copyright 2013</p>
+            <p>This page was last updated on {% block edited %}{% endblock %}, by Sarah Miller and is hosted by The Pennsylvania State University AE Department copyright 2013</p>
           </div>
         </div>
 

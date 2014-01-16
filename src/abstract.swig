@@ -1,49 +1,5 @@
-<html>
-  <head>
-    
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-    <script src="thesis.js"></script>
-
-    <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css"/>
-    <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css"/>
-    <link href='http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo' rel='stylesheet' type='text/css'>
-    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"/>
-    <link href="style.css" rel="stylesheet"/>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    
-    <title>Sarah Miller's Thesis</title>
-  </head>
-
-  <body>
-    <div id="page-container" class="row-fluid vcontainer">
-      <div id="page-content" class="span8 offset2">
-        <div class="row-fluid">
-          <div id="color-bar-top" class="span12 blue">
-          </div>
-        </div>
-        <div id="header-name" class="row-fluid">
-          <div id="header-name-content" class="span12">
-            <div class="row-fluid">
-              <a href="bio.html"><div id="sarah-miller" class="span3">
-                  <div class="row-fluid">
-                    <div id="header-name-sarah" class="span12">
-                      sarah
-                    </div>
-                  </div>
-                  <div class="row-fluid">
-                    <div id="header-name-miller" class="span12">
-                      miller
-                    </div>
-                  </div>
-              </div></a>
-              <div id="header-option" class="span9">
-                lighting & electrical design
-              </div>
-            </div>
-          </div>
-        </div>
-        
+{% extends 'layout.swig' %}
+{% block banner %}
 <div id="header-image" class="row-fluid">
   <div id="home-header-content" class="span12">
     <div class="row-fluid">
@@ -55,33 +11,14 @@
           <li><span id="header-home-li-5">University of Maryland</span></li>
         </ul>
       </div>
-      <div id="home-header-building-image-2" class="span4">
+      <div id="home-header-building-image-3" class="span4">
       </div>
     </div>
   </div>
 </div>
+{% endblock %}
 
-
-        <div id="main-container" class="row-fluid">
-          <div id="main-container-content" class="span12">
-            <div class="row-fluid">
-              <div id="navbar" class="span3">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="bio.html">About Sarah</a></li>
-                  <li><a href="bldgstat.html">Building Statistics</a></li>
-                  <li><a href="abstract.html">Thesis Abstract</a></li>
-                  <li><a href="assignments.html">Technical Assignments</a></li>
-                  <li><a href="research.html">Thesis Research</a></li>
-                  <li><a href="proposal.html">Thesis Proposal</a></li>
-                  <li><a href="presentation.html">Presentation</a></li>
-                  <li><a href="finalreport.html">Final Report</a></li>
-                  <li><a href="reflection.html">Reflection</a></li>
-                  <li><a href="http://www.engr.psu.edu/ae/thesis/course.htm" target="_blank">Thesis e-Studio</a></li>
-                </ul>
-              </div>
-              <div id="page-text" class="span9">
-                
+{% block content %}
 <ul>
   <li>
     <h1>Thesis Abstract</h1>
@@ -139,30 +76,5 @@
     <p id="p1"><a class="btn btn-info button-inherit-format" role="button" href="http://www.personal.psu.edu/slm5413/thesis/abstract.pdf" target="_blank">download</a></p>
   </li>
 </ul>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="footer" class="row-fluid">
-          <div id="footer-content" class="span12">
-            <p id="footer-links"><a href="index.html">Home</a> | <a href="http://www.psu.edu" target="_blank">Penn State</a> | <a href="http://www.engr.psu.edu/ae/" target="_blank">AE</a> | <a href="http://www.engr.psu.edu/ae/aecomputing/" target="_blank">AE Computer Labs</a> | <a href="http://www.slmiller.net" target="_blank">Contact</a></p>
-            <p>This page was last updated on 13 November 2013, by Sarah Miller and is hosted by The Pennsylvania State University AE Department copyright 2013</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-44196178-2', 'psu.edu');
-          ga('send', 'pageview');
-
-    </script>
-  </body>
-</html>
+{% endblock %}
+{% block edited %}13 November 2013{% endblock %}
