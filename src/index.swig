@@ -29,7 +29,47 @@
   <h1>Progress</h1>
 
   <table class="progress-table table-hover">
-    <tr>
+    <tr class="add-border">
+      <td class="progress-date narrow-cell">17</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">JAN</th></tr>
+          <tr><th class="med-cell">2013</th></tr>
+        </table>
+      </td>
+      <td class="progress-name">breadth topics submitted for second review</td>
+    </tr>
+    <tr class="add-border">
+      <td class="progress-date narrow-cell">16</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">JAN</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
+        </table>
+      </td>
+      <td class="progress-name"><a href="http://www.personal.psu.edu/slm5413/thesis/proposal-2.pdf" target="_blank">proposal</a>, version 2 posted on CPEP [10 MB download]</td>
+    </tr>
+    <tr class="add-border">
+      <td class="progress-date narrow-cell">13</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">JAN</th></tr>
+          <tr><th class="med-cell">2013</th></tr>
+        </table>
+      </td>
+      <td class="progress-name">beginning of spring 2014 semester</td>
+    </tr>
+    <tr class="add-border">
+      <td class="progress-date narrow-cell">20</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">DEC</th></tr>
+          <tr><th class="med-cell">2013</th></tr>
+        </table>
+      </td>
+      <td class="progress-name">end of fall 2013 semester</td>
+    </tr>
+    <tr class="add-border">
       <td class="progress-date narrow-cell">16</td>
       <td>
         <table class="progress-table-month">
@@ -39,7 +79,7 @@
       </td>
       <td class="progress-name">proposal checklist submitted for review</td>
     </tr>
-    <tr>
+    <tr class="add-border">
       <td class="progress-date narrow-cell">13</td>
       <td>
         <table class="progress-table-month">
@@ -47,7 +87,7 @@
           <tr><th class="med-cell">2013</th></tr>
         </table>
       </td>
-      <td class="progress-name"><a href="http://www.personal.psu.edu/slm5413/thesis/proposal.pdf" target="_blank">proposal</a> posted on CPEP [9.5 MB download]</td>
+      <td class="progress-name"><a href="http://www.personal.psu.edu/slm5413/thesis/proposal.pdf" target="_blank">proposal</a>, version 1 posted on CPEP [9.5 MB download]</td>
     </tr>
     <tr class="add-border">
       <td class="progress-date narrow-cell">13</td>
@@ -248,4 +288,4 @@
   </ul>
   {% endblock %}
 
-  {% block edited %}14 November 2013{% endblock %}
+  {% block edited %}16 January 2014{% endblock %}

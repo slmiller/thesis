@@ -11,7 +11,7 @@
           <li><span id="header-home-li-5">University of Maryland</span></li>
         </ul>
       </div>
-      <div id="home-header-building-image" class="span4">
+      <div id="home-header-building-image-4" class="span4">
       </div>
     </div>
   </div>
