@@ -22,7 +22,7 @@
     <p>Sarah has work experience with lighting and electrical design. Her electrical internship in Pittsburgh allowed her to exercise her AutoCAD knowledge and learn more about electrical consulting. This past summer, she traveled across the country to Seattle to work for NBBJ's lighting studio. There, she learned about concept development, rendering techniques, and integrated design using Revit. Sarah's knowledge of construction is augmented by her field experience as a general laborer throughout her high school years.</p>
     <p>Seattle also offered a great chance for Sarah to spend time exploring the outdoors. Away from school and work she enjoys backpacking, hiking, skiing, and whitewater rafting. This past summer, she spent time hiking in Washington's Olympic and Cascade mountain ranges, where she further developed her love of outdoor photography by capturing beautiful views, wildflowers, and mountain goats.</p>
     <p>In the past year, Sarah has been rewarded for her outstanding work in all disciplines of her field: architecture, engineering, and lighting design. In the fall of 2012, her team was named the winner of the Final Four in their architecture studio. She received a passing score on the Fundamentals of Engineering exam, making her FE-Certified. Most recently, she was awarded the IALD's Thomas M Lemons Scholarship, one of her largest accomplishments to date.
-    <p><a class="btn btn-info button-inherit-format" role="button" href="http://www.slmiller.net" target="_blank">learn more</a></p>
+    <p><a class="btn-blue" role="button" href="http://www.slmiller.net" target="_blank">learn more</a></p>
   </li>
   <li>
     <div class="row-fluid">

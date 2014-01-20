@@ -23,7 +23,7 @@
   <li>
   <h1>About AE Thesis</h1>
   <p>The Capstone Project Electronic Portfolio (CPEP) is a web-based project and information center. It contains material produced for a year-long Senior Thesis class. Its purpose, in addition to providing central storage of individual assignments, is to foster communication and collaboration between student, faculty consultant, course instructors, and industry consultants. This website is dedicated to the research and analysis conducted via guidelines provided by the Department of Architectural Engineering. An explanation of this capstone design course and its requirements can be found on the Penn State Architectural Engineering Portfolio website.</p>
-  <p><a class="btn btn-info button-inherit-format button-last" role="button" href="http://www.engr.psu.edu/ae/thesis/course.htm" target="_blank">learn more</a></p>
+  <p><a class="btn-blue button-last" role="button" href="http://www.engr.psu.edu/ae/thesis/course.htm" target="_blank">learn more</a></p>
   </li>
   <li>
   <h1>Progress</h1>

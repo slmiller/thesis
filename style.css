@@ -10,14 +10,14 @@ h1 {
 
 h2 {
   font-size: 14pt;
-  color: #ee3a43;
+  color: rgb(231, 76, 60);
   font-family: 'Droid Sans', sans-serif;
   line-height: 14pt;  
 }
 
 h3 {
   font-size: 12pt;
-  color: rgb(100,100,100);
+  color: rgb(52, 73, 94);
   font-family: 'Droid Sans', sans-serif;
   line-height: 14pt;  
   padding-left: 42px;
@@ -25,7 +25,7 @@ h3 {
 
 #header-3 {
   font-size: 12pt;
-  color: rgb(100,100,100);
+  color: rgb(52, 73, 94);
   font-family: 'Droid Sans', sans-serif;
   line-height: 14pt;  
   font-weight: bold;
@@ -42,6 +42,7 @@ h3 {
   font-family: 'arvo', serif;
   font-weight: bold;
   margin-bottom: 3px;
+  color: rgb(52, 73, 94);
 }
 
 #p1-links {
@@ -55,6 +56,7 @@ h3 {
   font-size: 9pt;
   font-family: 'arvo', serif;
   margin-bottom: 18px;
+  margin-top: 10px;
   vertical-align: bottom;
 }
 
@@ -116,7 +118,8 @@ h3 {
 }
 
 .button-last {
-  margin-bottom: 25px;
+  line-height: 30px;
+  vertical-align: 90%;
 }
 
 .progress-table {
@@ -169,13 +172,13 @@ h3 {
 }
 
 #page-content {
-  background-color: #dddddd;    
   box-shadow: 0 0 50px #333333;
+  background-color: #dddddd;
 }
 
 #color-bar-top {
   min-height: 8px;
-  background-image: url(images/black-noise.png);
+  background-color: rgb(35,31,32);
 }
 
 #header-name-content {
@@ -185,7 +188,7 @@ h3 {
 #sarah-miller {
   height: 88px;
   padding-top: 31px;
-  color: rgb(20,20,20);
+  color: rgb(35,31,32);
   text-transform: uppercase;
   font-size: 32pt;
   font-weight: 900;
@@ -203,7 +206,7 @@ h3 {
 #header-option {
   height: 88px;
   padding-top: 68px;
-  color: rgb(140,140,140);
+  color: #7f8c8d;
   text-align: right;
   letter-spacing: 6pt;
 }
@@ -358,7 +361,7 @@ h3 {
 
 #header-home-li-5 {
   font-size: 12pt;
-  color: rgb(255,213,30);
+  color: #f1c40f;
   font-family: 'Arvo', sans-serif;
   letter-spacing: 5pt;
   text-transform: lowercase;
@@ -417,10 +420,10 @@ h3 {
   list-style-type: none;
   font-size: 14pt;
   font-weight: 900;
-  margin: 12px 12px 12px 12px;
+  margin: 14px 12px 12px 12px;
   letter-spacing: -1pt;
-  background-image: url(images/black-noise.png);
-  box-shadow: inset 0 0 20px rgb(10,10,10);
+  background-color: rgb(35,31,32);
+  box-shadow: inset 0 0 15px rgb(10,10,10);
   border-style: solid;
   border-color: rgb(234,234,240);
   border-width: 1px;
@@ -431,17 +434,16 @@ h3 {
 }
 
 #navbar a:hover{
-  color: #4daefe;
+  color: #3498db;
   text-decoration: none;
 }
 
 #navbar a.active-page {
-  color: #4daefe;
+  color: #3498db;
   text-decoration: none;
 }
 
 #page-text {
-  background-color: rgb(234,234,240);
   padding: 10px 20px 10px 10px;
   margin: 14px 10px 14px 6px;
   box-shadow: 0 0 12px rgb(180,180,180);
@@ -461,15 +463,15 @@ h3 {
 }
 
 #page-text a {
-  color: #4daefe;
+  color: #3498db;
 }
 
 #page-text a:hover {
-  color: #4d82fe;
+  color: #3498db;
 }
 
 #page-text a:visited {
-  color: #4d82fe;
+  color: #3498db;
 }
 
 #bio-psu-logo {
@@ -509,7 +511,7 @@ h3 {
   height: 128px;
   text-align: center;
   padding-top: 40px;
-  color: rgb(120,120,120);
+  color: #bdc3c7;
   font-size: 10px;
 }
 
@@ -518,24 +520,21 @@ h3 {
 }
 
 #footer-links a {
-  color: #4daefe;
+  color: #3498db;
   font-weight: bold;
   font-size: 14px;
 }
 
 #footer-links a:hover {
-  color: white;
+  color: #3498db;
   font-size: 15px;
   text-decoration: none;
 }
 
 #footer-links a:visited {
-  color: #4d82fe;
+  color: #2980b9;
 }
 
 #footer {
-  background-image: url(images/black-noise.png);
-  border-top-style: solid;
-  border-width: 1px;
-  border-color: rgb(234,234,240);
+  background-color: rgb(35,31,32);
 }

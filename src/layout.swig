@@ -9,6 +9,7 @@
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css"/>
     <link href='http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo' rel='stylesheet' type='text/css'>
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"/>
+    <link href="flat-ui.css" rel="stylesheet"/>
     <link href="style.css" rel="stylesheet"/>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     {% endblock %}
@@ -63,7 +64,7 @@
                   <li><a href="http://www.engr.psu.edu/ae/thesis/course.htm" target="_blank">Thesis e-Studio</a></li>
                 </ul>
               </div>
-              <div id="page-text" class="span9">
+              <div id="page-text" class="span9 palette-clouds">
                 {% block content %}{% endblock %}
               </div>
             </div>

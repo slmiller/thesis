@@ -25,7 +25,7 @@
   </li>
   <li>
     <p id="page-description">This summary assignment encouraged research about the physical existing conditions of this building. Included is information relative to overall building systems, construction methods and design concepts. It represents an overview understanding of all the systems and components of the building. Much of this information will be used in later thesis assignments.</p>
-    <p id="page-description"><a class="btn btn-info button-inherit-format button-last" role="button" href="http://www.personal.psu.edu/slm5413/thesis/bldgstat.pdf" target="_blank">download</a></p>
+    <p id="page-description"><a class="btn-blue button-last" role="button" href="http://www.personal.psu.edu/slm5413/thesis/bldgstat.pdf" target="_blank">download</a></p>
   </li>
   <li>
     <h2>General Data</h2>
@@ -130,7 +130,7 @@
     <p id="p1">Security and access control is an important aspect of this building that requires additional systems. The main form of access control is through magnetic door contacts and card readers. Areas protected with this system are: mechanical and electrical rooms, tel/data rooms, all elevators, all access points on the first and ground floors, and all dormitory rooms. Residential floors have RF readers installed above the ceiling. Security protection outside the building occurs in two forms. Three blue-light emergency phones are located around the outside, not more than 600 feet away, and six exterior CCTV cameras are mounted around the perimeter, on the roof level.</p>
   </li>
   <li>
-    <p id="p1"><a class="btn btn-info button-inherit-format" role="button" href="http://www.personal.psu.edu/slm5413/thesis/bldgstat.pdf" target="_blank">download</a></p>
+    <p id="p1"><a class="btn-blue" role="button" href="http://www.personal.psu.edu/slm5413/thesis/bldgstat.pdf" target="_blank">download</a></p>
   </li>
 </ul>
 {% endblock %}

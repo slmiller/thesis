@@ -25,7 +25,7 @@
   </li>
   <li>
     <p id="page-description">This abstract is used as part of a variety of assignments and is also on display as part of some AE Department events. It is intended to be graphic intensive, and represents the primary piece of information on this thesis project, as seen by outside indiviuals. Included is general information on existing conditions for all major AE areas.</p>
-    <p id="page-description"><a class="btn btn-info button-inherit-format button-last" role="button" href="http://www.personal.psu.edu/slm5413/thesis/abstract.pdf" target="_blank">download</a></p>
+    <p id="page-description"><a class="btn-blue button-last" role="button" href="http://www.personal.psu.edu/slm5413/thesis/abstract.pdf" target="_blank">download</a></p>
   </li>
   <li>
     <h2>Building Statistics</h2>
@@ -73,7 +73,7 @@
     <p id="p1"><span id="header-3">trellis:</span> This feature of the building is constructed mainly of hollow steel sections.</p>
   </li>
   <li>
-    <p id="p1"><a class="btn btn-info button-inherit-format" role="button" href="http://www.personal.psu.edu/slm5413/thesis/abstract.pdf" target="_blank">download</a></p>
+    <p id="p1"><a class="btn-blue" role="button" href="http://www.personal.psu.edu/slm5413/thesis/abstract.pdf" target="_blank">download</a></p>
   </li>
 </ul>
 {% endblock %}
