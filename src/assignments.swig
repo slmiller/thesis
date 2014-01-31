@@ -23,6 +23,17 @@
     <li>
         <h1>Technical Assignments</h1>
     </li>
+    <li>
+        <h2>Spring Milestones</h2>
+            <p id="p1"><span id="p1-bold">Milestone 1:</span> Completed on January 31, 2014, this milestone represents the completion of the 3D Revit model for Prince Frederick Hall. This model will be used for lighting design developement renderings, daylighting calculations, and exterior architectural renderings. The model is shown here as a collection of exterior renderings.</p>
+			<p id="p1-links-last"><a class="btn-blue" role="button" href="http://www.personal.psu.edu/slm5413/thesis/milestone_1.pdf" target="_blank">view renderings</a> [1 MB pdf]</p>
+			
+			<p id="p1-last"><span id="p1-bold">Milestone 2:</span> Lighting design and renderings completed by February 21, 2014.</p>
+			
+			<p id="p1-last"><span id="p1-bold">Milestone 3:</span> Electrical systems studies to be completed by March 7, 2014.</p>
+			
+			<p id="p1-last"><span id="p1-bold">Milestone 4:</span> Mechanical and architectural breadth studies to be completed by March 28, 2014.</p>
+    </li>
 	<li>
         <h2>Lighting Assignments</h2>
 			<p id="p1"><span id="p1-bold">Tech Report 1, Part 1:</span> This lighting proposal memo is intended to indicate which four spaces will be studied in further detail. Each space is described by physical attributes and how it is used. Drawings, space dimensions, materials, and a list of activities and visual tasks are included in the descriptions.</p>
@@ -48,4 +59,4 @@
 	</li>
 </ul>
 {% endblock %}
-{% block edited %}13 November 2013{% endblock %}
+{% block edited %}31 January 2014{% endblock %}
