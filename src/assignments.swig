@@ -21,7 +21,12 @@
 {% block content %}
 <ul>
     <li>
-        <h1>Technical Assignments</h1>
+        <h1>Spring Semester</h1>
+    </li>
+    <li>
+        <h2>Progress Photostream</h2>
+            <p id="p1">Progress of work on architectual and lighting design available in the following Flickr gallery in the form of rendered images. These images are intended to show progess of both the 3D Revit model and lighting design development, they do not represent final designs. Gallery last updated on 12 February, 2014.</p>
+            <p id="p1-links-last"><a class="btn-3" role="button" href="http://www.flickr.com/photos/99983168@N04/sets/72157640887290475/" target="_blank">go to Flickr</a></p>
     </li>
     <li>
         <h2>Spring Milestones</h2>
@@ -33,6 +38,9 @@
 			<p id="p1-last"><span id="p1-bold">Milestone 3:</span> Electrical systems studies to be completed by March 7, 2014.</p>
 			
 			<p id="p1-last"><span id="p1-bold">Milestone 4:</span> Mechanical and architectural breadth studies to be completed by March 28, 2014.</p>
+    </li>
+    <li>
+        <h1>Technical Assignments</h1>
     </li>
 	<li>
         <h2>Lighting Assignments</h2>
@@ -59,4 +67,4 @@
 	</li>
 </ul>
 {% endblock %}
-{% block edited %}31 January 2014{% endblock %}
+{% block edited %}13 February 2014{% endblock %}

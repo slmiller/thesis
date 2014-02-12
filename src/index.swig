@@ -29,12 +29,33 @@
   <h1>Progress</h1>
 
   <table class="progress-table table-hover">
+  
+  <tr class="add-border">
+      <td class="progress-date narrow-cell">12</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">FEB</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
+        </table>
+      </td>
+      <td class="progress-name"><a href="http://www.engr.psu.edu/ae/thesis/portfolios/2014/slm5413/proposal.html">thesis proposal</a> page updated to include link for most recent <a href="http://www.personal.psu.edu/slm5413/thesis/proposal-chart.pdf" target="_blank">gantt chart</a></td>
+    </tr>
+  <tr class="add-border">
+      <td class="progress-date narrow-cell">12</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">FEB</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
+        </table>
+      </td>
+      <td class="progress-name"><a href="http://www.engr.psu.edu/ae/thesis/portfolios/2014/slm5413/assignments.html">technical assignments</a> page updated to include new <a href="http://www.flickr.com/photos/99983168@N04/sets/72157640887290475/" target="_blank">Flickr photostream</a></td>
+    </tr>
   <tr class="add-border">
       <td class="progress-date narrow-cell">31</td>
       <td>
         <table class="progress-table-month">
           <tr><th class="med-cell">JAN</th></tr>
-          <tr><th class="med-cell">2013</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
         </table>
       </td>
       <td class="progress-name"><a href="http://www.personal.psu.edu/slm5413/thesis/milestone_1.pdf" target="_blank">milestone 1</a> completed [1 MB download]</td>
@@ -44,7 +65,7 @@
       <td>
         <table class="progress-table-month">
           <tr><th class="med-cell">JAN</th></tr>
-          <tr><th class="med-cell">2013</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
         </table>
       </td>
       <td class="progress-name">breadth topics approved</td>
@@ -54,7 +75,7 @@
       <td>
         <table class="progress-table-month">
           <tr><th class="med-cell">JAN</th></tr>
-          <tr><th class="med-cell">2013</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
         </table>
       </td>
       <td class="progress-name">breadth topics submitted for second review</td>
@@ -74,7 +95,7 @@
       <td>
         <table class="progress-table-month">
           <tr><th class="med-cell">JAN</th></tr>
-          <tr><th class="med-cell">2013</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
         </table>
       </td>
       <td class="progress-name">beginning of spring 2014 semester</td>
@@ -308,4 +329,4 @@
   </ul>
   {% endblock %}
 
-  {% block edited %}16 January 2014{% endblock %}
+  {% block edited %}13 February 2014{% endblock %}
