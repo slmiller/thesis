@@ -33,7 +33,8 @@
             <p id="p1"><span id="p1-bold">Milestone 1:</span> Completed on January 31, 2014, this milestone represents the completion of the 3D Revit model for Prince Frederick Hall. This model will be used for lighting design developement renderings, daylighting calculations, and exterior architectural renderings. The model is shown here as a collection of exterior renderings.</p>
 			<p id="p1-links-last"><a class="btn-blue" role="button" href="http://www.personal.psu.edu/slm5413/thesis/milestone_1.pdf" target="_blank">view renderings</a> [1 MB pdf]</p>
 			
-			<p id="p1-last"><span id="p1-bold">Milestone 2:</span> Lighting design and renderings completed by February 21, 2014.</p>
+			<p id="p1-last"><span id="p1-bold">Milestone 2:</span> Completed on February 21, 2014. This is the completed lighting design for four spaces within Prince Frederick Hall: the entry plaza, lobby, seminar room, and dormitory suite. Warning: very large document!</p>
+			<p id="p1-links-last"><a class="btn-blue" role="button" href="http://www.personal.psu.edu/slm5413/thesis/milestone_2.pdf" target="_blank">download</a> [58 MB pdf]</p>
 			
 			<p id="p1-last"><span id="p1-bold">Milestone 3:</span> Electrical systems studies to be completed by March 7, 2014.</p>
 			
@@ -67,4 +68,4 @@
 	</li>
 </ul>
 {% endblock %}
-{% block edited %}13 February 2014{% endblock %}
+{% block edited %}22 February 2014{% endblock %}

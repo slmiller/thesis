@@ -31,6 +31,16 @@
   <table class="progress-table table-hover">
   
   <tr class="add-border">
+      <td class="progress-date narrow-cell">21</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">FEB</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
+        </table>
+      </td>
+      <td class="progress-name"><a href="http://www.personal.psu.edu/slm5413/thesis/milestone_2.pdf">milestone 2</a> completed [58 MB download]</td>
+    </tr>
+  <tr class="add-border">
       <td class="progress-date narrow-cell">12</td>
       <td>
         <table class="progress-table-month">
@@ -329,4 +339,4 @@
   </ul>
   {% endblock %}
 
-  {% block edited %}13 February 2014{% endblock %}
+  {% block edited %}22 February 2014{% endblock %}
