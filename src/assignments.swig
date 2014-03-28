@@ -36,7 +36,8 @@
 			<p id="p1-last"><span id="p1-bold">Milestone 2:</span> Completed on February 21, 2014. This is the completed lighting design for four spaces within Prince Frederick Hall: the entry plaza, lobby, seminar room, and dormitory suite. Warning: very large document!</p>
 			<p id="p1-links-last"><a class="btn-blue" role="button" href="http://www.personal.psu.edu/slm5413/thesis/milestone_2.pdf" target="_blank">download</a> [58 MB pdf]</p>
 			
-			<p id="p1-last"><span id="p1-bold">Milestone 3:</span> Electrical systems studies to be completed by March 7, 2014.</p>
+			<p id="p1"><span id="p1-bold">Milestone 3:</span> Electrical systems studies completed on March 14, 2014. Summary of studies is included in the following PDF.</p>
+			<p id="p1-links-last"><a class="btn-blue" role="button" href="http://www.personal.psu.edu/slm5413/thesis/milestone_3.pdf" target="_blank">download</a> [5 MB pdf]</p>
 			
 			<p id="p1-last"><span id="p1-bold">Milestone 4:</span> Mechanical and architectural breadth studies to be completed by March 28, 2014.</p>
     </li>
@@ -68,4 +69,4 @@
 	</li>
 </ul>
 {% endblock %}
-{% block edited %}22 February 2014{% endblock %}
+{% block edited %}14 March 2014{% endblock %}

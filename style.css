@@ -315,6 +315,15 @@ h3 {
   background-position: left center;
 }
 
+#home-header-building-image-5 {
+  height: 200px;
+  background-image: url("images/PFH_header_5.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  background-position: right top;
+}
+
 #bio-header-image-content {
   height: 200px;
   border-top-style: solid;
@@ -377,7 +386,7 @@ h3 {
 
 #bio-image-1 {    
   height: 198px;
-  background-image: url("images/marmot_pass.JPG");
+  background-image: url("images/sarah_newyears.JPG");
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: 0 center;
@@ -513,6 +522,15 @@ h3 {
   background-size: auto 150px;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.research-indent {
+  padding-left: 25px;
+  text-indent: -25px; 
+}
+
+.italics {
+  font-style: italic;
 }
 
 #footer-content {
