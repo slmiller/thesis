@@ -26,8 +26,12 @@
   <li>
     <p id="page-description">The proposal for this thesis project consists of four major sections, as outlined below and in the following document. This represents the scope of studies that will be conducted in the spring 2014 semester on Prince Frederick Hall. The areas of study include: lighting design, electrical engineering, architectural daylighting optimization, and mechanical studies.</p>
     <p id="page-description"><a class="btn-grey" role="button" href="http://www.personal.psu.edu/slm5413/thesis/proposal.pdf" target="_blank">proposal</a> version 1 [9.5 MB pdf]</p>
-    <p id="page-description"><a class="btn-blue" role="button" href="http://www.personal.psu.edu/slm5413/thesis/proposal-2.pdf" target="_blank">proposal</a> version 2 [8.2 MB pdf]</p> 
-    <p id="page-description-last"><a class="btn-3" role="button" href="http://www.personal.psu.edu/slm5413/thesis/proposal-chart.pdf" target="_blank">gantt chart</a> updated 6 March</p>   
+    <p id="page-description-last"><a class="btn-blue" role="button" href="http://www.personal.psu.edu/slm5413/thesis/proposal-2.pdf" target="_blank">proposal</a> version 2 [8.2 MB pdf]</p> 
+  </li>  
+  <li>
+    <h2>Gantt Chart</h2>  
+    <p id="page-description">Progress throughout the spring 2014 semester has been tracked on the proposal's original gantt chart. This updated chart is shown in the following link:</p>
+    <p id="page-description-last"><a class="btn-3" role="button" href="http://www.personal.psu.edu/slm5413/thesis/proposal-chart.pdf" target="_blank">gantt chart</a> updated 27 March</p>   
   </li>
   <li>
     <h2>Lighting Depth</h2>
@@ -48,4 +52,4 @@
   </li>
 </ul>
 {% endblock %}
-{% block edited %}24 February 2014{% endblock %}
+{% block edited %}2 May 2014{% endblock %}

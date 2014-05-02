@@ -23,10 +23,14 @@
     <li>
         <h1>Thesis Research</h1>
         
-        <p class="research-indent">Brownson, Jeffrey R. S. <span class="italics">Solar Energy Conversion Systems</span>. 1st ed. Oxford, UK: Elsevier, 2014. Print.</p>
+         <p class="research-indent">Brownson, Jeffrey R. S. <span class="italics">Solar Energy Conversion Systems</span>. 1st ed. Oxford, UK: Elsevier, 2014. Print.</p>
+
+        <p class="research-indent">Charest, Adrian C. RSMeans Electrical Cost Data. Norwell, MA: Construction & Consultants, 2014. Print.</p>
+
+        <p class="research-indent">Dilaura, David L., Kevin W. Houser, Richard G. Mistrick, and Gary R. Steffy, eds. The Lighting Handbook: Reference and Application. 10th ed. N.p.: Illuminating Engineering, 2011. Print.</p> 
 
         <p class="research-indent">Duffie, John A., and William A. Beckman. <span class="italics">Solar Engineering of Thermal Processes</span>. 3rd ed. Hoboken: Wiley, 2006. Print.</p>
-        
+
         <p class="research-indent">Grondzik, Walter T., Alison G. Kwok, Benjamin Stein, and John S. Reynolds. <span class="italics">Mechanical and Electrical Equipment for Buildings</span>. 11th ed. Hoboken: J. Wiley & Sons, 2010. Print.</p>
 
         <p class="research-indent">Haggard, Kenneth L., David A. Bainbridge, and Rachel Aljilani. <span class="italics">Passive Solar Architecture Pocket Reference</span>. Ed. D. Yogi Goswami. London: Earthscan, 2009. Print.</p>
@@ -39,4 +43,4 @@
     </li>
 </ul>
 {% endblock %}
-{% block edited %}27 March 2014{% endblock %}
+{% block edited %}2 May 2014{% endblock %}

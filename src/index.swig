@@ -29,7 +29,66 @@
   <h1>Progress</h1>
 
   <table class="progress-table table-hover">
-  
+  <tr class="add-border">
+      <td class="progress-date narrow-cell">04</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">MAY</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
+        </table>
+      </td>
+      <td class="progress-name">CPEP website completed for final review</td>
+    </tr>
+  <tr class="add-border">
+      <td class="progress-date narrow-cell">02</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">MAY</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
+        </table>
+      </td>
+      <td class="progress-name"><a href="http://www.engr.psu.edu/ae/thesis/portfolios/2014/slm5413/reflection.html">reflection</a> posted</td>
+    </tr>
+  <tr class="add-border">
+      <td class="progress-date narrow-cell">02</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">MAY</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
+        </table>
+      </td>
+      <td class="progress-name"><a href="http://www.personal.psu.edu/slm5413/thesis/presentation-sarahmiller.pdf">final presentation</a> posted [24 MB download]</td>
+    </tr>
+  <tr class="add-border">
+      <td class="progress-date narrow-cell">09</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">APR</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
+        </table>
+      </td>
+      <td class="progress-name"><a href="http://www.personal.psu.edu/slm5413/thesis/finalreport.pdf">final report</a> completed [109 MB download]</td>
+    </tr>
+  <tr class="add-border">
+      <td class="progress-date narrow-cell">28</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">MAR</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
+        </table>
+      </td>
+      <td class="progress-name"><a href="http://www.personal.psu.edu/slm5413/thesis/milestone_4.pdf">milestone 4</a> completed [28 MB download]</td>
+    </tr>
+  <tr class="add-border">
+      <td class="progress-date narrow-cell">14</td>
+      <td>
+        <table class="progress-table-month">
+          <tr><th class="med-cell">MAR</th></tr>
+          <tr><th class="med-cell">2014</th></tr>
+        </table>
+      </td>
+      <td class="progress-name"><a href="http://www.personal.psu.edu/slm5413/thesis/milestone_3.pdf">milestone 3</a> completed [5 MB download]</td>
+    </tr>
   <tr class="add-border">
       <td class="progress-date narrow-cell">21</td>
       <td>
@@ -339,4 +398,4 @@
   </ul>
   {% endblock %}
 
-  {% block edited %}22 February 2014{% endblock %}
+  {% block edited %}2 May 2014{% endblock %}
